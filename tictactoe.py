@@ -14,4 +14,10 @@ def new_game():
     pass
 
 window = Tk()
+window.title("Tic Tac Toe")
+players = ["X", "O"]
+player = random.choice(players)
+buttons = [[0,0,0],
+           [0,0,0],
+           [0,0,0]]
 window.mainloop()
